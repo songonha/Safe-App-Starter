@@ -6,8 +6,15 @@ Install dependencies and start a local dev server.
 
 ```
 yarn install
+npm install --force
+
+
 cp .env.sample .env
+
+
 yarn start
+GENERATE_SOURCEMAP=false react-scripts start
+
 ```
 
 Then:
